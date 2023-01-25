@@ -7,8 +7,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          This is the branch for assignment 2
+          Welcome to Atul's react application
         </p>
+        <h2>This is for assignment 2</h2>
         <a
           className="App-link"
           href="https://reactjs.org"
