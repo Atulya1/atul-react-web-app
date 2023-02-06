@@ -211,6 +211,12 @@ p#id-selector-2 {
    background-color: red;
    color: white;
 }
+.rotate-list-own {
+   transform: rotate(-12deg);
+   width: 100px;
+   background-color: red;
+   color: white;
+}
 
 .rotate-list-items li {
    width: 100px;
@@ -232,6 +238,10 @@ p#id-selector-2 {
 
 .rotate-image {
    transform: rotate(-10deg);
+}
+
+.rotate-image-own {
+   transform: rotate(10deg);
 }
 
 .rotate-table {
