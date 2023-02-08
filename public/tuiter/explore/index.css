@@ -1,0 +1,216 @@
+.wd-bg-color-black {
+    background-color: black;
+    font-family: arial;
+}
+.wd-margin-left {
+    margin-left: 16px;
+}
+
+.wd-margin-top {
+    margin-top: 10px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.wd-float-left {
+    float: left;
+}
+
+.wd-search-bar {
+    border-radius: 50px;
+    border: none;
+    background-color: #121212;
+    float: left;
+    width: 92%;
+    height: 35px;
+    margin-left: 16px;
+    padding-left: 2.5%;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+.wd-settings-icon-color{
+    color: rgb(29,161,242);
+}
+
+.wd-height-90 {
+    height: 90px;
+}
+.wd-height-35 {
+    height: 35px;
+    margin-bottom: 15px;
+}
+.wd-height-100 {
+    height: 100px;
+}
+.wd-width-95 {
+    width: 95px;
+}
+.wd-width-5 {
+    width: 5px;
+}
+
+.wd-image-design {
+    float: right;
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+}
+
+/* Create two equal columns that floats next to each other */
+.wd-image-div {
+    float: left;
+    width: 10%;
+}
+.wd-feed-title {
+    display: table;
+    border-collapse: collapse;
+    float: left;
+    width: 90%;
+    padding: 10px;
+}
+.wd-column1 {
+    float: left;
+    width: 5%;
+    padding: 10px;
+    height: 700px; /* Should be removed. Only for demonstration */
+    background-color:black;
+}
+.wd-column2 {
+    display: table;
+    border-collapse: collapse;
+    float: left;
+    width: 95%;
+    padding: 10px;
+    height: 700px; /* Should be removed. Only for demonstration */
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+}
+
+.wd-feeds {
+    float: left;
+    width: 100%;
+    height: auto;
+    padding: 16px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+}
+
+.wd-column4 {
+    float: left;
+    width: 100%;
+    height: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+}
+
+/* Clear floats after the columns */
+.wd-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.wd-main-top-nav {
+    padding-bottom: 0px !important;
+}
+
+.wd-topnav {
+    overflow: hidden;
+    background-color: black;
+    height: 45px;
+    width: 100%;
+    margin-left: 15px
+}
+
+.wd-topnav a {
+    color: rgb(110,118,125);
+    text-align: center;
+    padding: 16px;
+    font-size: 15px;
+    display: inline-block;
+    height: 45px;
+    font-family: arial;
+    text-decoration: none;
+}
+
+.wd-active {
+    color: rgb(110,118,125);
+    text-align: center;
+    padding: 16px;
+    font-size: 15px;
+    display: inline-block;
+    height: 45px;
+    font-family: arial;
+    text-decoration: none;
+    border-bottom: solid rgb(29,161,242) 3px;
+    color: rgb(29,161,242);
+}
+
+.wd-topnav a:hover {
+    color: rgb(29,161,242);
+}
+
+.wd-topnav a:focus-within {
+    border-bottom: solid rgb(29,161,242) 3px;
+    color: rgb(29,161,242);
+}
+
+a {
+    line-height: 1em;
+    margin-right: 130px;
+}
+
+.wd-magnifying-glass{
+    color: gray;
+    z-index: 10;
+    position: absolute;
+    left: 35px;
+    top: 9px;
+    font-family: arial;
+}
+
+.wd-search-div{
+    position: relative;
+    width: 95%;
+    height:100%
+}
+
+.wd-placeholder{
+    padding-left: 52px;
+}
+
+.wd-settings{
+    color: rgb(29,161,242);
+    position: absolute;
+    left: 1300px;
+    top: 9px;
+}
+
+.wd-ellipsis{
+    color:white;
+}
+
+.wd-ellipsis2{
+    padding-left: 1245px;
+    color:white;
+}
+
+.wd-font-design {
+    color: rgb(110, 118, 125);
+    font-size:13px;
+}
+
+.wd-font-design-15px {
+    color: white;
+    font-size:15px;
+}
+
+.wd-icon-color {
+    color:blue;
+}
