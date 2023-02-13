@@ -16,6 +16,7 @@
 
 .fa-2x.override-bs {
     font-size: 1.5em;
+    color: black;
 }
 
 .wd-image-design {
@@ -27,5 +28,57 @@
 }
 
 .img-fluid.override-ig {
-margin: 0px;
+    margin: 0px;
+}
+
+.list-group-item.lgi-override {
+    border: 0px solid white;
+    height:60px;
+}
+
+.list-group-item.lgi-override.active {
+    border: 0px solid white;
+    height:60px;
+    z-index: 2;
+    color: #090909;
+    font-weight: bold;
+    background-color: white;
+}
+
+.row.row-override {
+    border: 0px solid white;
+}
+.border.border-override {
+    border: 0px solid white;
+}
+
+.navbar-inner.wd-topnav a {
+    text-align: center;
+    padding: 16px;
+    font-size: 15px;
+    display: inline-block;
+    height: 45px;
+    font-family: arial;
+    font-color: black;
+    text-decoration: none;
+    color:gray;
+}
+
+.nav-link.active.nla-override {
+    border-bottom: solid rgb(29,161,242) 3px;
+    font-weight: bold;
+    color:black;
+}
+.navbar-inner.wd-topnav {
+        overflow: hidden;
+        height: 45px;
+        width: 100%;
+        margin-left: 15px;
+    }
+.border-override {
+    border:0;
+}
+.col-3.wd-image{
+    padding : 20px;
+    border-radius: 20%;
 }
