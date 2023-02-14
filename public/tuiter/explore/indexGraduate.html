@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Graduate Index</title>
-    <link href="index.css" rel="stylesheet"/>
+    <title>Index Graduate</title>
+    <link href="indexGraduate.css" rel="stylesheet"/>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
           rel="stylesheet"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
@@ -11,48 +11,72 @@
 </head>
 <body>
 
-<div class="container-fluid">
+<div class="container-fluid mt-1">
     <div class="row mt-1">
-        <div class="col-4 text-white">
+        <div class="col-xxl-3 col-xl-4 col-lg-2 col-md-3 col-sm-3 text-white">
             <div class="row">
                 <div class="col-6">
 
                 </div>
-                <div class="col-6">
-                    <div class="list-group">
+                <div class="col-6 d-none d-xl-block d-xxl-block list-group wd-left-bar">
 
                         <a href="#" class="list-group-item lgi-override list-group-item-action">
                             <i class="fab fa-twitter fa-2x" style="color:blue"></i><br/>
                         </a>
-                        <a href="#" class="list-group-item lgi-override list-group-item-action active">
+                        <a href="#" class="list-group-item lgi-override list-group-item-action"><i class="fas fa-home"></i>
+                            Home</a>
+                        <a href="#" class="list-group-item lgi-override list-group-item-action active"><i class="fas fa-hashtag"></i>
                             Explore</a>
-                        <a href="#" class="list-group-item lgi-override list-group-item-action">
+                        <a href="#" class="list-group-item lgi-override list-group-item-action"><i class="fas fa-bell"></i>
                             Notifications</a>
-                        <a href="#" class="list-group-item lgi-override list-group-item-action">Message</a>
-                        <a href="#" class="list-group-item lgi-override list-group-item-action">
+                        <a href="#" class="list-group-item lgi-override list-group-item-action"><i class="fas fa-envelope"></i>
+                            Message</a>
+                        <a href="#" class="list-group-item lgi-override list-group-item-action"><i class="fas fa-bookmark"></i>
                             Bookmarks</a>
-                        <a href="#" class="list-group-item lgi-override list-group-item-action">
+                        <a href="#" class="list-group-item lgi-override list-group-item-action"><i class="fas fa-list-ul"></i>
                             Lists</a>
-                        <a href="#" class="list-group-item lgi-override list-group-item-action">
+                        <a href="#" class="list-group-item lgi-override list-group-item-action"><i class="fas fa-user"></i>
                             Profile</a>
-                        <a href="#" class="list-group-item lgi-override list-group-item-action">
+                        <a href="#" class="list-group-item lgi-override list-group-item-action"><i class="fas fa-ellipsis-h"></i>
                             More</a>
+                        <button type="button" class="btn btn-primary btn-lg btn-block rounded-pill fw-bold" style="width:100%">Tweet</button>
                     </div>
-                    <br>
-                    <button type="button" class="btn btn-primary btn-lg btn-block rounded-pill" style="width:100%">Tweet</button>
-                </div>
+                <div class="col-6 d-block d-l-block d-xl-none d-list-group wd-left-bar2">
+
+                    <a href="#" class="list-group-item lgi-override list-group-item-action">
+                        <i class="fab fa-twitter fa-2x"></i><br/>
+                    </a>
+                    <a href="#" class="list-group-item lgi-override list-group-item-action">
+                        <i class="fas fa-home"></i></a>
+                    <a href="#" class="list-group-item lgi-override list-group-item-action active">
+                        <i class="fas fa-hashtag"></i></a>
+                    <a href="#" class="list-group-item lgi-override list-group-item-action">
+                        <i class="fas fa-bell"></i></a>
+                    <a href="#" class="list-group-item lgi-override list-group-item-action">
+                        <i class="fas fa-envelope"></i></a>
+                    <a href="#" class="list-group-item lgi-override list-group-item-action">
+                        <i class="fas fa-bookmark"></i></a>
+                    <a href="#" class="list-group-item lgi-override list-group-item-action">
+                        <i class="fas fa-list-ul"></i></a>
+                    <a href="#" class="list-group-item lgi-override list-group-item-action">
+                        <i class="fas fa-user"></i></a>
+                    <a href="#" class="list-group-item lgi-override list-group-item-action">
+                        <i class="fas fa-ellipsis-h"></i></a>
+                        <button type="button" class="btn btn-primary btn-lg btn-block rounded-pill" style="width:100%">Tweet</button>
+                    </div>
+                <br>
             </div>
         </div>
-        <div class="container-fluid col-4 text-white ">
+        <div class="container-fluid col-xxl-5 col-xl-4 col-lg-6 col-md-8 col-sm-8 text-white ">
             <div class="row">
                 <div class="col-11">
                     <div class="form-group has-search">
                         <span class="fa fa-search form-control-feedback"></span>
-                        <input type="text" class="form-control border-end-0 rounded-pill bg-light" style="border:0" placeholder="Search Twitter">
+                        <input type="text" class="form-control border-end-0 rounded-pill bg-light wd-search-bar-override" placeholder="Search Twitter">
                     </div>
                 </div>
                 <div class="col-1">
-                    <a href="explore-settings.html"><i class="fas fa-cog wd-settings fa-2x override-bs" style="margin-top:8px"></i></a>
+                    <a href="explore-settings.html"><i class="fas fa-cog wd-settings fa-2x override-bs mt-1"></i></a>
                 </div>
             </div>
             <div class="navbar">
@@ -77,18 +101,23 @@
                 </div>
             </div>
 
-            <div class="card" style="margin-top:5px">
+            <div class="card mt-2">
                 <img src="cryptography.jpg"
                      class="card-img-top" alt="...">
+                <div class="card-img-overlay d-flex align-items-end">
+                    <h4 class="wd-card-img-text">Cryptography</h4>
+                </div>
             </div>
             <div class="border-override">
                 <div class="row">
-                    <div class="col-9" style="padding: 15px">
-                        <text class="text-secondary">Web Development</text>
+                    <div class="col-9 pt-2 pt-override">
+                        <text class="text-secondary">Politics . Trending</text>
                         <br>
-                        <text class="font-weight-bold text-black fw-bold">ReactJS</text> <i class="fas fa-check-circle" style="color:blue"></i> <text class="text-secondary"> - 2 hr</text>
+                        <text class="font-weight-bold text-black fw-bold">Politics</text> <i class="fas fa-check-circle fa-check-circle-override"></i> <text class="text-secondary"> - 2 hr</text>
                         <br>
                         <text class="text-black font-weight-bold fw-bold">Denialism is seeping into legislation and undermining public health </text>
+                        <br>
+                        <text class="text-secondary">123k Tweets</text>
                     </div>
                     <div class="col-3 wd-image">
                         <img class="img-fluid override-ig rounded" alt="Cinque Terre" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png">
@@ -97,10 +126,10 @@
             </div>
             <div class="border-override">
                 <div class="row">
-                    <div class="col-9" style="padding:15px">
-                        <text class="text-black fw-bold">JavaScript</text> <i class="fas fa-check-circle" style="color:blue"></i> <text class="text-secondary"> - 2 hr</text>
+                    <div class="col-9 pt-2 pt-override">
+                        <text class="text-black fw-bold">#JavaScript</text>
                         <br>
-                        <text class="text-black fw-bold">Denialism is seeping into legislation and undermining public health </text>
+                        <text class="text-secondary">Denialism is seeping into legislation and undermining public health </text>
                         <br>
                         <text class="text-secondary">123k Tweets</text>
                     </div>
@@ -111,8 +140,8 @@
             </div>
             <div class="border-override">
                 <div class="row">
-                    <div class="col-9" style="padding: 15px">
-                        <text class="text-secondary">Web Development</text>
+                    <div class="col-9 pt-2 pt-override">
+                        <text class="text-secondary">Politics . Trending</text>
                         <br>
                         <text class="font-weight-bold text-black fw-bold">Jquery</text>
                         <br>
@@ -125,7 +154,7 @@
             </div>
             <div class="border-override">
                 <div class="row">
-                    <div class="col-9" style="padding: 15px">
+                    <div class="col-9 pt-2 pt-override">
                         <text class="text-secondary">Web Development</text>
                         <br>
                         <text class="font-weight-bold text-black fw-bold">NodeJS</text> <text class="text-secondary"> - 2 hr</text>
@@ -138,71 +167,86 @@
                 </div>
             </div>
         </div>
-        <div class="col-4">
+        <div class="col-xxl-4 col-xl-4 col-lg-4 d-none d-lg-block d-xl-block">
             <div class="row">
-                <div class="col-9">
-                    <div class="list-group">
-                        <li class="list-group-item lgi-override list-group-item-action"><text class="fw-bold"> Who to follow </text></li>
-                        <li class="list-group-item lgi-override list-group-item-action">
-                            <div class="row">
+                <div class="col-9 bg-light left-col-override">
+                    <div class="list-group bg-light">
+                        <li class="list-group-item lgi-override list-group-item-action bg-light"><text class="fw-bold"> Who to follow </text></li>
+                        <li class="list-group-item lgi-override list-group-item-action bg-light">
+                            <div class="row bg-light">
                                 <div class="col-2 icon">
-                                    <img src="data:image/png;base64,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" class="rounded-circle" alt="Cinque Terre" width="40" height="40">
-                                </div>
+                                    <img src="https://images.credly.com/images/432ea12d-444b-42e7-a1d9-f5a3655fb948/blob.png" class="rounded-circle" alt="Cinque Terre" width="40" height="40"></div>
                                 <div class="col-6 info">
-                                    <text class="text-black"> Java </text><i class="fas fa-check-circle" style="color:blue"></i>
+                                    <text class="text-black"> Northeastern U. </text><i class="fas fa-check-circle fa-check-circle-override"></i>
                                     <br>
-                                    <text class="text-secondary">@java</text>
+                                    <text class="text-secondary">@Northeastern</text>
                                 </div>
                                 <div class="col-4 button">
-                                    <button type="button" class="btn btn-primary btn-block rounded-pill mt-2" style="width:100%;">Follow</button>
+                                    <button type="button" class="btn btn-primary text-center btn-block rounded-pill mt-2 follow-btn-override">Follow</button>
                                 </div>
                             </div>
                         </li>
-                        <li class="list-group-item lgi-override list-group-item-action">
-                            <div class="row">
+                        <li class="list-group-item lgi-override list-group-item-action bg-light">
+                            <div class="row bg-light">
                                 <div class="col-2 icon">
                                     <img src="relativity.jpg" class="rounded-circle" alt="Cinque Terre" width="40" height="40">
                                 </div>
                                 <div class="col-6 info">
-                                    <text class="text-black"> Relativity Space </text><i class="fas fa-check-circle" style="color:blue"></i>
+                                    <text class="text-black"> Relativity Space </text><i class="fas fa-check-circle fa-check-circle-override"></i>
                                     <br>
                                     <text class="text-secondary">@relativityspace</text>
                                 </div>
                                 <div class="col-4 button">
-                                    <button type="button" class="btn btn-primary btn-block rounded-pill mt-2" style="width:100%;">Follow</button>
+                                    <button type="button" class="btn btn-primary text-center btn-block rounded-pill mt-2 follow-btn-override">Follow</button>
                                 </div>
                             </div>
                         </li>
-                        <li class="list-group-item lgi-override list-group-item-action">
-                            <div class="row">
+                        <li class="list-group-item lgi-override list-group-item-action bg-light">
+                            <div class="row bg-light">
                                 <div class="col-2 icon">
                                     <img src="https://cdn.worldvectorlogo.com/logos/virgin-1.svg" class="rounded-circle" alt="Cinque Terre" width="40" height="40">
                                 </div>
                                 <div class="col-6 info">
-                                    <text class="text-black"> Virgin Galatic </text><i class="fas fa-check-circle" style="color:blue"></i>
+                                    <text class="text-black"> Virgin Galatic </text><i class="fas fa-check-circle fa-check-circle-override"></i>
                                     <br>
                                     <text class="text-secondary">@virgingalatic</text>
                                 </div>
                                 <div class="col-4 button">
-                                    <button type="button" class="btn btn-primary btn-block rounded-pill mt-2" style="width:100%;">Follow</button>
+                                    <button type="button" class="btn btn-primary text-center btn-block rounded-pill mt-2 follow-btn-override">Follow</button>
                                 </div>
                             </div>
                         </li>
-                        <li class="list-group-item lgi-override list-group-item-action">
-                            <div class="row">
+                        <li class="list-group-item lgi-override list-group-item-action bg-light">
+                            <div class="row bg-light">
                                 <div class="col-2 icon">
                                     <img src="https://ih1.redbubble.net/image.3586201042.5124/st,small,507x507-pad,600x600,f8f8f8.jpg" class="rounded-circle" alt="Cinque Terre" width="40" height="40">
                                 </div>
                                 <div class="col-6 info">
-                                    <text class="text-black"> Nasa </text><i class="fas fa-check-circle" style="color:blue"></i>
+                                    <text class="text-black"> Nasa </text><i class="fas fa-check-circle fa-check-circle-override"></i>
                                     <br>
                                     <text class="text-secondary">@nasa</text>
                                 </div>
                                 <div class="col-4 button">
-                                    <button type="button" class="btn btn-primary btn-block rounded-pill mt-2" style="width:100%;">Follow</button>
+                                    <button type="button" class="btn btn-primary text-center btn-block rounded-pill mt-2 follow-btn-override">Follow</button>
                                 </div>
                             </div>
                         </li>
+                        <li class="list-group-item lgi-override list-group-item-action bg-light">
+                            <div class="row bg-light">
+                                <div class="col-2 icon">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Tesla_logo.png" class="rounded-circle" alt="Cinque Terre" width="40" height="40">
+                                </div>
+                                <div class="col-6 info">
+                                    <text class="text-black"> Tesla </text><i class="fas fa-check-circle fa-check-circle-override"></i>
+                                    <br>
+                                    <text class="text-secondary">@tesla</text>
+                                </div>
+                                <div class="col-4 button">
+                                    <button type="button" class="btn btn-primary text-center btn-block rounded-pill mt-2 follow-btn-override">Follow</button>
+                                </div>
+                            </div>
+                        </li>
+                        <a class="wd-show-more" href="#">Show more</a>
                     </div>
                 </div>
                 <div class="col-3">
