@@ -1,0 +1,168 @@
+.wd-left-bar{
+    width: 75%;
+    float: right;
+}
+.wd-left-bar2{
+    width: 50%;
+    float: right;
+}
+
+.wd-tuit-btn-override{
+    width: 100%;
+}
+
+.wd-inputbar{
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightgray;
+}
+
+.wd-inputbar-pad{
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.wd-color-black{
+    color: black;
+}
+
+.wd-settings{
+    display: flex;
+    padding-top: 2px;
+    justify-content: center;
+}
+
+.wd-heading{
+    padding-left: 25px;
+    padding-top: 5px;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #212529;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.fa-2x.override-bs {
+    font-size: 1.5em;
+    color: deepskyblue;
+}
+
+.wd-image-design {
+    float: right;
+    height: 90px;
+    width: 90px;
+    border-radius: 15px;
+    margin:5px;
+}
+
+.img-fluid.override-ig {
+    margin: 0px;
+    padding: 10px;
+}
+
+.list-group-item.lgi-override {
+    border: 0px solid white;
+    height:60px;
+}
+
+.list-group-item.lgi-override.active {
+    border: 0px solid white;
+    height:60px;
+    z-index: 2;
+    color: #090909;
+    font-weight: bold;
+    background-color: white;
+}
+list-group-item.list-group-item-action.active {
+    font-weight: bold;
+}
+
+.row.row-override {
+    border: 0px solid white;
+}
+.border.border-override {
+    border: 0px solid white;
+}
+
+.navbar-inner.wd-topnav a {
+    text-align: center;
+    padding: 16px;
+    font-size: 15px;
+    display: inline-block;
+    height: 45px;
+    font-family: arial;
+    font-color: black;
+    text-decoration: none;
+    color:gray;
+}
+
+.nav-link.active.nla-override {
+    border-bottom: solid rgb(29,161,242) 3px;
+    font-weight: bold;
+    color:whitesmoke;
+}
+.navbar-inner.wd-topnav {
+    overflow: hidden;
+    height: 45px;
+    width: 100%;
+    margin-left: 15px;
+}
+.border-override {
+    border:0;
+}
+.col-3.wd-image{
+    padding : 20px;
+    border-radius: 20%;
+}
+
+.wd-card-img-text {
+    font-weight: bold;
+    font-size: 30px;
+}
+.col-9.pt-2.pt-override {
+    padding: 10px;
+}
+
+.fas.fa-check-circle.fa-check-circle-override {
+    color: deepskyblue;
+}
+
+.btn.btn-primary.text-center.btn-block.rounded-pill.mt-2.follow-btn-override {
+    width:100%;
+}
+
+.fas.fa-check-circle.icon-override {
+    color:deepskyblue;
+}
+
+.col-3.wd-image{
+    padding : 20px;
+    border-radius: 20%;
+}
