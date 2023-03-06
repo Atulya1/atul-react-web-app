@@ -1,7 +1,7 @@
 import React from "react";
 import whoArray from './who.json';
 import WhoToFollowListItem
-    from "./who-to-follow-list-item";
+    from "./WhoToFollowListItem";
 
 const WhoToFollowList = () => {
     return(

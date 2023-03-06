@@ -1,6 +1,6 @@
 import React from "react";
 import './index.css'
-import PostSummaryList from "../post-list";
+import PostSummaryList from "../PostList";
 
 const HomeComponent = () => {
     return (

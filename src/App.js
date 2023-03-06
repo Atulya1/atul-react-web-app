@@ -1,12 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import {BrowserRouter} from "react-router-dom";
 import {Route, Routes} from "react-router";
-import HelloWorld from "./labs/a6/hello-world";
+import HelloWorld from "./labs/a6/HelloWorld";
 import Tuiter from "./tuiter";
 import Labs from "./labs";
-import HomeComponent from "./tuiter/home";
-
 function App() {
   return (
       <BrowserRouter>

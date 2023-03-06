@@ -1,5 +1,5 @@
 import postsArray from "./posts.json";
-import PostItem from "./post-item";
+import PostItem from "./PostItem";
 import React from "react";
 
 

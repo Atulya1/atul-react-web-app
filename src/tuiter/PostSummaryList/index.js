@@ -1,5 +1,5 @@
 import postArray from "./post.json" ;
-import PostSummaryItem from "./post-summary-item";
+import PostSummaryItem from "./PostSummaryItem";
 import React from "react";
 
 const PostSummaryList = () => {
