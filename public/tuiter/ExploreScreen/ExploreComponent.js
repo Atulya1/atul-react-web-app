@@ -1,4 +1,4 @@
-import PostSummaryList from "../PostSummaryList/index.js";
+import PostSummaryList from "../PostSummaryList/main.js";
 const ExploreComponent = () => {
     return(`
             <div class="row">
@@ -9,7 +9,7 @@ const ExploreComponent = () => {
                     </div>
                 </div>
                 <div class="col-1">
-                    <a href="../explore/explore-settings.html"><i class="fas fa-cog wd-settings fa-2x override-bs mt-1"></i></a>
+                    <a href="../exploreGraduate/explore-settings.html"><i class="fas fa-cog wd-settings fa-2x override-bs mt-1"></i></a>
                 </div>
             </div>
             <ul class="nav mb-2 nav-tabs mt-2">
