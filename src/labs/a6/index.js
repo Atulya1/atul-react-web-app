@@ -1,9 +1,6 @@
-import {Link} from "react-router-dom";
-import Nav from "../../nav";
 import Classes from "./classes";
 import Styles from "./styles";
 import ConditionalOutput from "./conditional-output";
-import TodoItem from "./todo/TodoItem";
 import TodoList from "./todo/TodoList";
 
 function Assignment6() {

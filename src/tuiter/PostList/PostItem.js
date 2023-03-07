@@ -32,7 +32,7 @@ const PostList = (
                 </div>
                 <div className="wd-image-body">
                     <div>
-                        <img  className="wd-lorem-img" src={`./images/${post.image}`}/>
+                        <img  className="wd-lorem-img" alt="postImage" src={`./images/${post.image}`}/>
                     </div>
                         <div className="wd-image-text">
                             <text className="wd-title">{post.title}</text>
@@ -42,19 +42,19 @@ const PostList = (
                 </div>
                 <div className="wd-icons" >
                     <div className="wd-icon-style" >
-                        <a href="#"> <i className="fa-regular fa-message wd-gray-handle"></i></a>
+                        <a href={"/#"}> <i className="fa-regular fa-message wd-gray-handle"></i></a>
                         <span className="wd-count wd-grey-icon"> {post.messages}</span>
                     </div>
                     <div className="wd-icon-style">
-                        <a href="#"><i className="fas fa-retweet wd-gray-handle "></i></a>
+                        <a href={"/#"}><i className="fas fa-retweet wd-gray-handle "></i></a>
                         <span className="wd-count wd-grey-icon"> {post.retweets}</span>
                     </div>
                     <div className="wd-icon-style">
-                        <a href="#"><i className="fa-solid fa-heart wd-gray-handle"></i></a>
+                        <a href={"/#"}><i className="fa-solid fa-heart wd-gray-handle"></i></a>
                         <span className="wd-grey-icon wd-count"> {post.heart}</span>
                     </div>
                     <div className="wd-icon-style">
-                        <a href="#"><i className="fa-solid fa-cloud-arrow-up wd-gray-handle"></i></a>
+                        <a href={"/#"}><i className="fa-solid fa-cloud-arrow-up wd-gray-handle"></i></a>
                     </div>
                 </div>
             </div>
