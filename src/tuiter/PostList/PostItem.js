@@ -1,5 +1,6 @@
 import React from "react";
 import './post-item.css'
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 
 const PostList = (
@@ -43,15 +44,15 @@ const PostList = (
                 <div className="wd-icons" >
                     <div className="wd-icon-style" >
                         <a href={"/#"}> <i className="fa-regular fa-message wd-gray-handle"></i></a>
-                        <span className="wd-count wd-grey-icon"> {post.messages}</span>
+                        <span style={{ fontSize: "15px", paddingRight: "12px"}}>&nbsp; {post.messages}</span>
                     </div>
                     <div className="wd-icon-style">
-                        <a href={"/#"}><i className="fas fa-retweet wd-gray-handle "></i></a>
-                        <span className="wd-count wd-grey-icon"> {post.retweets}</span>
+                        <a href={"/#"}><i className="fas fa-retweet wd-gray-handle"></i></a>
+                        <span style={{ fontSize: "15px", paddingRight: "12px"}}>&nbsp; {post.retweets}</span>
                     </div>
                     <div className="wd-icon-style">
                         <a href={"/#"}><i className="fa-solid fa-heart wd-gray-handle"></i></a>
-                        <span className="wd-grey-icon wd-count"> {post.heart}</span>
+                        <span style={{ fontSize: "15px", paddingRight: "12px"}}>&nbsp; {post.heart}</span>
                     </div>
                     <div className="wd-icon-style">
                         <a href={"/#"}><i className="fa-solid fa-cloud-arrow-up wd-gray-handle"></i></a>

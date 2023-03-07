@@ -1,4 +1,6 @@
 import React from "react";
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 const WhoToFollowListItem = (
     {
         who = { userName: "NASA", handle: "NASA", avatarIcon: "nasa.jpeg" }
