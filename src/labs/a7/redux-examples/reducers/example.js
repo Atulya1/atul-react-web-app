@@ -1,0 +1,3 @@
+const example = () => ({example : "This is an example"})
+
+export default example;

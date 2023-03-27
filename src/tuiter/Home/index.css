@@ -294,8 +294,17 @@ list-group-item.list-group-item-action.active {
 }
 
 .wd-gray-handle{
-    color:lightgray;
     font-size: 15px;
+}
+
+.wd-red-like{
+    font-size: 15px;
+    color:red;
+}
+
+.wd-black-like{
+    font-size: 15px;
+    color: black;
 }
 
 .wd-bg-color-black {

@@ -1,0 +1,42 @@
+[
+  {
+    "_id": 234,
+    "topic": "Space",
+    "userName": "SpaceX",
+    "time": "2h",
+    "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
+    "image": "nasa.jpeg",
+    "liked": true,
+    "replies": 123,
+    "retuits": 5000,
+    "likes": 2345,
+    "handle": "@spacex",
+    "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+  }, {
+    "_id": 899,
+    "topic": "Elon Musk",
+    "image": "elon.jpg",
+    "userName": "Elon Musk",
+    "handle": "@elonmusk",
+    "time": "2h",
+    "title": "Countdown: Inspiration4 Mission to Space | Netflix Official Site",
+    "liked": false,
+    "replies": 123,
+    "retuits": 432,
+    "likes": 0,
+    "tuit": "In a new folder called HomeScreen, use the ExploreScreen implemented earlier as a guide to implement the home screen shown here on the right. The layout of the screen should be the same as shown. Use the same NavigationSideBar component used earlier on the left side just like in the ExploreScreen from earlier."
+},
+  {
+    "_id": 999,
+    "image": "nypost.png",
+    "topic": "news",
+    "userName": "New York Post",
+    "handle": "@nypost",
+    "time": "23h",
+    "title": "ChatGPT to revolutionize the news world",
+    "liked": true,
+    "replies": 123,
+    "retuits": 432,
+    "likes": 2345,
+    "tuit": "The New York Post is a daily tabloid newspaper published in New York City. The Post also operates NYPost.com, the celebrity gossip site PageSix.com, and the entertainment site Decider.com"
+  }]

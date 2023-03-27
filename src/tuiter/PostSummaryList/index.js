@@ -1,12 +1,13 @@
-import postArray from "./post.json" ;
 import PostSummaryItem from "./PostSummaryItem";
 import React from "react";
+import {useSelector} from "react-redux";
 
 const PostSummaryList = () => {
+    const postsArray = useSelector(state => state.tuits)
     return(
         <ul className="list-group">
     {
-        postArray.map(post =>
+        postsArray.map(post =>
             <PostSummaryItem
                 key={post._id}
                 post={post}/>

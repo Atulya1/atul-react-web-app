@@ -1,17 +1,16 @@
 import React from "react";
 import './index.css'
-import PostSummaryList from "../PostList";
+import TuitItem from "../tuits/TuitItem";
+import WhatsHappening from "./whats-happening";
 
 const HomeComponent = () => {
     return (
-        <>
 
-            <div className="col-10 col-lg-7 col-xl-6">
-                {
-                    <PostSummaryList />
-                }
-            </div>
-        </>
+            <>
+                <h4>Home</h4>
+                <WhatsHappening/>
+                <TuitItem/>
+            </>
     );
 }
 
