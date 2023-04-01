@@ -7,7 +7,7 @@ import Labs from "./labs";
 function App() {
   return (
       <BrowserRouter>
-        <div className="container">
+        <div className="container-fluid">
           <Routes>
               <Route path="/*" element={<Labs/>}/>
               <Route path="/hello" element={<HelloWorld/>}/>
