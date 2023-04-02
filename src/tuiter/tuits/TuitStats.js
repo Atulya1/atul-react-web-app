@@ -1,42 +1,46 @@
-import React, {useState} from "react";
+import React from "react";
 import {useDispatch} from "react-redux";
-import {updateLikes}
-    from "./tuits-home-reducer";
+import {updateTuitThunk} from "../../services/tuits-thunks";
 
-const TuitStats = (tuitStat) => {
+const TuitStats = ({tuits}) => {
+    const liked = tuits.liked ? "red" : "";
     const dispatch = useDispatch();
-    const [likes, setLikes] = useState({tuitId: tuitStat.index, tuitLikes: tuitStat.likes, tuitLiked: tuitStat.liked})
-
-    const updateTuitLikes = (id) => {
-
-        if(likes.tuitLiked) {
-            setLikes({...likes, tuitLikes: likes.tuitLikes - 1, tuitLiked: false});
-        } else {
-            setLikes({...likes, tuitLikes: likes.tuitLikes + 1, tuitLiked: true});
-        }
-        dispatch(()=>updateLikes(likes));
-    }
     return (
         <div className="container">
-            <div className="row">
-                <div className="col-sm wd-icon-style" >
-                    <span><i className="fa-regular fa-message wd-gray-handle"></i></span>
-                    <span style={{ fontSize: "15px", paddingRight: "12px"}}>&nbsp; {tuitStat.replies}</span>
-                </div>
-                <div className="col-sm wd-icon-style">
-                    <span><i className="fas fa-retweet wd-gray-handle"></i></span>
-                    <span style={{ fontSize: "15px", paddingRight: "12px"}}>&nbsp; {tuitStat.retuits}</span>
-                </div>
-                <div className="col-sm wd-icon-style">
-                    <span style={{"cursor": "pointer"}} onClick={() => updateTuitLikes(tuitStat.index)}><i className={likes.tuitLiked ?`fa-solid fa-heart wd-red-like`:`fa-solid fa-heart wd-black-like`}></i></span>
-                    <span style={{ fontSize: "15px", paddingRight: "12px"}}>&nbsp; {likes.tuitLikes}</span>
-                </div>
-                <div className="col-sm wd-icon-style">
-                    <span><i className="fa-solid fa-cloud-arrow-up wd-gray-handle"></i></span>
-                </div>
+        <div className="row">
+            <div className="col-sm wd-icon-style">
+                <i className="fa-regular fa-message wd-gray-handle"></i>
+                <span className='ms-1 wd-gray-color'>{tuits.replies}</span>
+            </div>
+            <div className="col-sm wd-icon-style">
+                <i className='fa fa-retweet wd-gray-color'></i>
+                <span className='ms-1 wd-gray-color'>{tuits.retuits}</span>
+            </div>
+            <div className="col-sm wd-icon-style">
+                <i className={tuits.liked ?`fa-solid fa-heart wd-red-like`:`fa-solid fa-heart wd-black-like`}
+                   onClick={() => dispatch(updateTuitThunk({
+                       ...tuits,
+                       likes: tuits.likes + 1,
+                       liked: true
+                   }))
+                   } style={{color: liked, "cursor": "pointer"}}></i>
+                <span className='ms-1 wd-gray-color'>{tuits.likes}</span>
+            </div>
+            <div className="col-sm wd-icon-style">
+                <i className='fa fa-thumbs-down wd-gray-color'
+                   onClick={() => dispatch(updateTuitThunk({
+                       ...tuits,
+                       dislikes: tuits.dislikes + 1
+                   }))
+                   } style={{"cursor": "pointer"}}></i>
+                <span className='ms-1 wd-gray-color'>{tuits.dislikes}</span>
+            </div>
+            <div className="col-sm wd-icon-style">
+                <span><i className="fa-solid fa-cloud-arrow-up wd-gray-handle"></i></span>
             </div>
         </div>
-    )
+        </div>
+    );
 }
 
 export default TuitStats;
