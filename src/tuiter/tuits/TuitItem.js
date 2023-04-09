@@ -25,7 +25,7 @@ const TuitItem = () => {
                 </li>
             }
             {
-                tuits.map(tuit =>
+                tuits.slice(0).reverse().map(tuit =>
                     <TuitsList
                         key={tuit._id}
                         tuit={tuit}/>
