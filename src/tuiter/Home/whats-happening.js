@@ -8,6 +8,7 @@ const WhatsHappening = () => {
 
     const tuitClickHandler = () => {
         console.log(whatsHappening);
+
         const newTuit = {
             tuit: whatsHappening,
             image:'nasa.jpeg',
@@ -20,6 +21,7 @@ const WhatsHappening = () => {
         }
         console.log(newTuit);
         dispatch(createTuitThunk(newTuit));
+        document.getElementById("whatshappeningtextbar").value = "";
     }
     return (
         <div className="row">
@@ -28,7 +30,7 @@ const WhatsHappening = () => {
             </div>
             <div className="col-10">
        <textarea value={whatsHappening} placeholder="What's happening?"
-                 className="form-control border-0"
+                 className="form-control border-0" id="whatshappeningtextbar"
                  onChange={(event) => setWhatsHappening(event.target.value)}>
        </textarea>
                 <div>
